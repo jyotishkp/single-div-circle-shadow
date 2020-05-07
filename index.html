@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <style>
+      body {
+        background: #008b8b;
+      }
+      div {
+        width: 120px;
+        height: 120px;
+        position: relative;
+        margin: auto;
+        box-shadow: 6px 8px 8px 1px black;
+        border-radius: 50%;
+      }
+      div {
+        background: red;
+      }
+      div:before {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        background: yellow;
+        left: -140px;
+        content: "";
+        box-shadow: 6px 8px 8px 1px black;
+        border-radius: 50%;
+      }
+      div:after {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        background: blue;
+        right: -140px;
+        content: "";
+        box-shadow: 6px 8px 8px 1px black;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>
